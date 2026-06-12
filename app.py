@@ -2,7 +2,7 @@ import streamlit as st
 from google import genai
 
 client = genai.Client(
-    api_key="AQ.Ab8RN6LYPHzB7KvkTQ47-Ijqvgch25xwolu_s0GdryPrvK0eng"
+    api_key="API_KEY"
 )
 
 st.set_page_config(
