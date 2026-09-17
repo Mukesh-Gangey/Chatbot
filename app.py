@@ -13,11 +13,11 @@ client = genai.Client(
 )
 
 st.set_page_config(
-    page_title="AI Chatbot",
+    page_title="Structure Chatbot",
     page_icon="🤖"
 )
 
-st.title("🤖  AI Chatbot")
+st.title("🤖 Structure Chatbot")
 
 if "history" not in st.session_state:
     st.session_state.history = []
