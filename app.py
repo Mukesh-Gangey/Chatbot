@@ -17,7 +17,7 @@ st.set_page_config(
     page_icon="🤖"
 )
 
-st.title("🤖 Mukesh AI Chatbot")
+st.title("🤖  AI Chatbot")
 
 if "history" not in st.session_state:
     st.session_state.history = []
