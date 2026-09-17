@@ -13,7 +13,7 @@ client = genai.Client(
 )
 
 st.set_page_config(
-    page_title="Mukesh AI Chatbot",
+    page_title="AI Chatbot",
     page_icon="🤖"
 )
 
